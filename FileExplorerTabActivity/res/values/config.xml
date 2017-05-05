@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="have_favorite">false</bool>
+    <bool name="have_setting_menu">false</bool>
+    
+    <bool name="default_show_real_path">true</bool>
+    
+</resources>

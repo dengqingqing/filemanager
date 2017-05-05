@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extensions>
+	<extension ext="wma">
+		<mimeType>audio/x-ms-wma</mimeType>
+	</extension>
+	<extension ext="wmv">
+		<mimeType>video/x-ms-wmv</mimeType>
+	</extension>
+</extensions>

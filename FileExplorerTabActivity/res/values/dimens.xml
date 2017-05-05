@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_text_size">14sp</dimen>
+    
+    <dimen name="no_sd_card_image_text_gap">25dp</dimen>
+    <dimen name="no_sd_card_text_size">22sp</dimen>
+
+    <dimen name="categories_left_gap">7dp</dimen>
+    <dimen name="categories_top_gap">8dp</dimen>
+    <dimen name="categories_right_gap">7dp</dimen>
+    <dimen name="categories_bottom_gap">7dp</dimen>
+    <dimen name="category_btn_left_gap">7dp</dimen>
+    <dimen name="category_btn_top_gap">7dp</dimen>
+    <dimen name="category_btn_right_gap">7dp</dimen>
+    <dimen name="category_btn_bottom_gap">7dp</dimen>
+    
+    <dimen name="category_btn_text_size">17sp</dimen>
+    <dimen name="category_btn_count_size">13sp</dimen>
+    
+    <dimen name="storage_information_top_gap">30dp</dimen>
+    <dimen name="storage_information_left_gap">14dp</dimen>
+    <dimen name="storage_information_right_gap">14dp</dimen>
+    <dimen name="storage_information_bottom_gap">4dp</dimen>
+    <dimen name="storage_information_text_size">14dip</dimen>
+    <dimen name="storage_information_v_gap">4dp</dimen>
+    <dimen name="sd_card_capacity_text_size">14dip</dimen>
+    <dimen name="sd_card_capacity_bottom_gap">4dip</dimen>
+    <dimen name="information_text_drawablePadding">5dp</dimen>
+    <dimen name="information_item_left_gap">0dp</dimen>
+    <dimen name="category_bar_height">10dp</dimen>
+    <dimen name="category_legend_icon_w">20dp</dimen>
+    <dimen name="category_legend_icon_h">20dp</dimen>
+    <dimen name="category_legend_icon_left_gap">0dp</dimen>
+    <dimen name="category_legend_icon_text_gap">10dp</dimen>
+    
+    <dimen name="file_list_divider_height">1dp</dimen>
+    <dimen name="file_list_item_padding_top">5dp</dimen>
+    <dimen name="file_list_item_padding_bottom">5dp</dimen>
+    <dimen name="file_list_item_icon_width">50dp</dimen>
+    <dimen name="file_list_item_icon_height">50dp</dimen>
+    <dimen name="file_list_item_icon_margin_left">6dp</dimen>
+    <dimen name="file_list_item_icon_margin_right">6dp</dimen>
+    <dimen name="file_list_item_name_padding_left">5dip</dimen>
+    <dimen name="file_list_item_checkout_margin_left">10dip</dimen>
+    <dimen name="file_list_item_checkout_margin_right">15dip</dimen>
+    <dimen name="file_list_item_info_text_size">12sp</dimen>
+    
+    
+    <dimen name="button_entry_view">45dp</dimen>
+    
+    <dimen name="filemanager_head_view_height">55dp</dimen>  
+    <dimen name="filemanager_botton_view_height">50dp</dimen>    
+    
+    <dimen name="filemanager_head_view_textsize">15sp</dimen>
+    <dimen name="filemanager_head_view_titletextsize">16sp</dimen>
+    
+    <dimen name="filemanager_head_view_left_width">60sp</dimen> 
+    <dimen name="filemanager_head_view_left_height">40sp</dimen>
+    <dimen name="filemanager_margin_letf">10dp</dimen>
+    <dimen name="filemanager_margin_right">10dp</dimen>
+    
+    
+    <dimen name="filemanager_entryview_margin_letf">16dp</dimen>
+    
+    <dimen name="filemanager_entryview_textView_size">16sp</dimen>
+    <dimen name="filemanager_entryview_textView_size2">14sp</dimen>
+    
+     <dimen name="filemanager_category_gridview_height">250dp</dimen> 
+     <dimen name="gridview_top_botton_padding">14dp</dimen>   
+     <dimen name="file_list_item_checkout_margin_right2">20dip</dimen>
+    
+     <dimen name="empty_files_margin_bottom">150dip</dimen>
+
+</resources>

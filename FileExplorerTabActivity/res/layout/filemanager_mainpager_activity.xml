@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <!-- dynamic config category -->
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/header" >
+        </FrameLayout>
+
+        <com.ape.newfilemanager.view.FileManagerBottomView
+            android:id="@+id/bottonbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/filemanager_botton_view_height"
+            android:layout_alignParentBottom="true" >
+
+        </com.ape.newfilemanager.view.FileManagerBottomView>
+        
+        <!--opration view 
+         -->
+         <com.ape.newfilemanager.view.FileManagerOperationView
+            android:id="@+id/operation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/filemanager_botton_view_height"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true" >
+
+        </com.ape.newfilemanager.view.FileManagerOperationView>
+        
+    </RelativeLayout>
+
+    <TextView 
+        android:id="@+id/showMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:textColor="#9e9e9e"
+        android:visibility="visible"
+        android:text="@string/no_file_tips"
+        />    
+    
+    <Button
+        android:id="@+id/oldfilemanager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="进入older文件管理" />
+  <LinearLayout
+        android:id="@+id/moving_operation_bar"
+        android:visibility="gone"
+        style="@style/BottomButtonBar">
+
+        <Button
+            android:id="@+id/button_moving_confirm"
+            style="@style/BottomButton.Left"
+            android:text="@string/operation_paste" />
+
+        <Button
+            android:id="@+id/button_moving_cancel"
+            style="@style/BottomButton.Right"
+            android:text="@string/operation_cancel" />
+    </LinearLayout>
+</FrameLayout>

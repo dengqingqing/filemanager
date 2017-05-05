@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/filemanager_botton_view_height"
+    android:background="@color/filemanager_bottomview_bg_color" >
+
+    <LinearLayout
+        android:id="@+id/buttoncontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/sort"
+            style="@style/BottomButtonStyle"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/sort_button_selector"
+            android:text="@string/menu_item_sort" />
+
+        <Button
+            android:id="@+id/reflesh"
+            style="@style/BottomButtonStyle"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/reflesh_button_selector"
+            android:text="@string/menu_refresh_str" />
+
+        <Button
+            android:id="@+id/copy"
+            style="@style/BottomButtonStyle"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/copy_button_selector"
+            android:text="@string/operation_copy" />
+
+        <Button
+            android:id="@+id/shear"
+            style="@style/BottomButtonStyle"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/shear_button_selector"
+            android:text="@string/operation_move" />
+
+        <Button
+            android:id="@+id/delete"
+            style="@style/BottomButtonStyle"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/delete_button_selector"
+            android:text="@string/operation_delete" />
+
+        <Button
+            android:id="@+id/more"
+            style="@style/BottomButtonStyle"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/more_button_selector"
+            android:text="@string/menu_item_more" />
+
+        <Button
+            android:id="@+id/newFold"
+            style="@style/BottomButtonStyle"
+            android:paddingTop="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/newfold_button_selector"
+            android:text="@string/menu_create_fold" />
+    </LinearLayout>
+
+</FrameLayout>

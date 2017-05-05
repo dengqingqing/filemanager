@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- locate: /system/etc/FileCustomExtension.xml -->
+<resources>
+	<ftp_root_path>/storage</ftp_root_path>
+</resources>

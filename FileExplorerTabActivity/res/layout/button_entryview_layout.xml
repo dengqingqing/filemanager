@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entrybutton"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_entry_view"
+    android:background="@drawable/bottomview_selector"
+    android:clickable="true" >
+
+    <!-- top line -->
+
+    <ImageView
+        android:id="@+id/topline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/file_category_buttonline_color"
+        android:visibility="invisible" />
+
+    <!-- bottom line -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/filemanager_margin_letf"
+        android:background="@color/file_category_buttonline_color" />
+
+    <!-- middle view -->
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/EntryViewTextStyle"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/filemanager_entryview_margin_letf"
+        android:text="@string/tab_sd"
+        android:textColor="@color/file_category_text_color" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/filemanager_entryview_margin_letf"
+        android:background="@drawable/new_entry_icon_unfocus" />
+
+    <TextView
+        android:id="@+id/storageshow"
+        style="@style/EntryViewTextStyle2"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@id/arrow"
+        android:text="@string/available"
+        android:textColor="@color/file_category_text_color2" />
+
+</RelativeLayout>

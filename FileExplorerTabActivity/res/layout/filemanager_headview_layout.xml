@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/filemanager_head_view_height"
+    android:background="@color/filemanager_headview_color" >
+
+    <TextView
+        android:id="@+id/headtitle"
+        style="@style/HeadViewTitleTextStyle"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name" />
+
+    <RelativeLayout
+        android:id="@+id/leftbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/filemanager_margin_letf"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/return_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/head_return_icon_selector" />
+
+        <TextView
+            android:id="@+id/operation_selectall"
+            style="@style/HeadViewTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:text="@string/operation_selectall" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rightbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/filemanager_margin_letf"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/edit_text"
+            style="@style/HeadViewTextStyle"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:text="@string/operation_edit" />
+    </RelativeLayout>
+
+</RelativeLayout>

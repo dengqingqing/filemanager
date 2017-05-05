@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+      <!--   <RelativeLayout
+            android:id="@+id/searchview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@android:color/white" >
+
+            <SearchView
+                android:id="@+id/searchview"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_centerInParent="true"
+                android:queryHint="@string/search_message_tint"
+                android:background="@drawable/new_searchview_bg"  
+                android:clickable="true"          
+                android:layout_height="27dp" >
+            </SearchView>
+        </RelativeLayout> -->
+          <include layout="@layout/filemanager_search_bar" />
+
+        <ListView
+            android:id="@+id/explorer_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:listSelector="@drawable/category_gridview_listselector"
+            android:layout_marginBottom="@dimen/filemanager_botton_view_height" >
+        </ListView>
+    </LinearLayout>
+ 
+</FrameLayout>

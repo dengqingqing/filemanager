@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="yellow">#FFF000</color>
+    <color name="gray">#A6A6A0</color>
+    <color name="orange">#ff9900</color>
+    <color name="deepcolor">#faaa5f</color>
+    <color name="shadowcolor">#333333</color>
+    <color name="naming">#ABABAB</color>
+    <color name="red">#FF0000</color>
+    <color name="background">#272727</color>
+    <color name="orange_yellow">#9b9ba0</color>
+    <color name="content_background">#ff000000</color>
+    <color name="list_divider">#222222</color>
+
+    <drawable name="semi_black">#80000000</drawable>
+
+    <color name="tab_bar_title_color">#ffffff</color>
+    <color name="tab_bar_title_focus_color">#0098df</color>
+
+    <color name="remote_connect_text">#FF424242</color>
+    <color name="remote_disconnect_text">#FF901821</color>
+
+    <color name="path_bg_color">#ff181818</color>
+    <color name="file_list_info_text_color">#555555</color>
+    
+    <color name="no_sd_card_text_color">#888888</color>
+    
+    
+    
+    <color name="filemanager_headview_color">#eeeeee</color>
+    <color name="filemanager_headview_unfocus_textcolor">#ff0f8bff</color>  
+    <color name="filemanager_headview_focus_textcolor">#550f8bff</color>      
+    
+    <color name="filemanager_bottomview_bg_color">#eeeeee</color>
+    <color name="filemanager_bottomview_text_color">#7f7f7f</color>
+    
+    <color name="file_more_dialog_bg">#55919191</color>
+    <color name="file_more_dialog_fg">#fbfbfb</color>
+    <color name="file_more_dialog_line">#eaeaea</color>
+    
+    <color name="file_category_gridview_bg">#fbfbfb</color>
+    
+    <color name="file_category_text_color">#383838</color>
+    <color name="file_category_text_color2">#9a9999</color>    
+    
+    <color name="file_category_buttonline_color">#eaeaea</color>
+    
+    <color name="file_searchview_hint_color">#7d7d7d</color>
+    
+    
+     <color name="remote_manager_disconect_color">#0f8bff</color>
+     <color name="remote_manager_conect_color">#d47981</color>
+     
+    <color name="empty_files_color">#9e9e9e</color>
+    
+    
+</resources>

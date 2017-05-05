@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/newCategoryButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/category_img"
+        style="@style/CategoryButtonTextStyle"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/new_apk_icon_unfocus" />
+
+    <TextView
+        android:id="@+id/category_text"
+        style="@style/CategoryButtonTextStyle"
+        android:layout_below="@id/category_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/category_picture"
+        android:textColor="@color/file_category_text_color" />
+
+    <TextView
+        android:id="@+id/category_filenumtext"
+        style="@style/CategoryButtonCountTextStyle"
+        android:layout_below="@id/category_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:text="10张"
+        android:textColor="@color/file_category_text_color2" />
+
+</RelativeLayout>

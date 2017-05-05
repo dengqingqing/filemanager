@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/file_more_dialog_fg"
+    android:orientation="vertical" >
+
+    <com.ape.newfilemanager.view.FileManagerHeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/filemanager_head_view_height"
+        android:layout_alignParentBottom="true" >
+    </com.ape.newfilemanager.view.FileManagerHeaderView>
+
+    <RelativeLayout
+        android:id="@+id/searchview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@android:color/white" >
+
+        <SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/new_searchview_bg"
+            android:clickable="true"
+            android:queryHint="@string/search_message_tint" >
+        </SearchView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/search_result"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:background="@color/filemanager_bottomview_bg_color"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:singleLine="true"
+        android:textColor="#010101"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/showMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/file_search_status"
+        android:textColor="#9e9e9e"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/search_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/empty_icon" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/category_gridview_listselector" />
+
+</LinearLayout>
