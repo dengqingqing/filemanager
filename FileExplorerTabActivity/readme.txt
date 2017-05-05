@@ -7,3 +7,9 @@ git has a mutable index called stage.
 
 
 git tracks changes of files.
+
+
+add 1
+
+
+add 2
